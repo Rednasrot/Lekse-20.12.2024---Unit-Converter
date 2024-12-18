@@ -13,5 +13,7 @@ button.addEventListener('click', function (event) {
     output.textContent = input.value * 39.3700787;
   } else if (unit.value === 'feet') {
     output.textContent = input.value * 3.2808399;
-  }
+  } else if (unit.value === 'footballfield') {
+    output.textContent = input.value * 0.010936132983377079;
+}
 });
