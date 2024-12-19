@@ -9,11 +9,23 @@ body {
   color: black;
 }
 
- #unitconverter {
+ #convertedunit {
+  animation-name: convertedunitanimation;
+  animation-direction:normal;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+
   
 
 
 
+}
+
+@keyframes convertedunitanimation {
+  0% {transform: translateX(-250%);}
+  100% {transform: translateX(0%)}
+  
 }
 
 main {
@@ -31,12 +43,7 @@ h2 {
   justify-content: center;
   color: rgb(176, 174, 29);
   text-decoration: underline;
-
-
-
-}
-
-
+  animation-iteration-count: 1;
 
 
 
